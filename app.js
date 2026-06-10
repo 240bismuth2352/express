@@ -44,3 +44,5 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+//mongodb+srv://2401100270cu:<db_password>@cluster0.56gxr4f.mongodb.net/?appName=Cluster0
