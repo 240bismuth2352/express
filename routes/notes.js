@@ -12,12 +12,10 @@ const database = client.db('notes');
 const notes = database.collection('notes');
 
 // idが１のドキュメントを取得
-const query = { id: 2 };
+const query = { id: 1 };
 const note = await notes.findOne(query);
 
 res.json(note);
 })
 
 module.exports = router;
-
-//mongodb+srv://2401100270cu:2401100270cu@cluster0.56gxr4f.mongodb.net/?appName=Cluster0
